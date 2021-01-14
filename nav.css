@@ -6,6 +6,10 @@ body{
 
 }
 
+.header{
+    position: absolute;
+
+    }
 
 button{
 position: relative;
@@ -74,16 +78,6 @@ nav li a:hover{
    text-decoration:underline;
 	}
 
-.space{
-    text-align: center;
-    color:#99CCFF;
-    }
-
-.copy{
-    text-align: left;
-    color:#fff;
-    margin:10px;
-    }
 
 .content{
    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -94,17 +88,17 @@ nav li a:hover{
 	color:#fff;
 	}
 
-a {
+td {
   float: left;
   width:50%;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
-a:hover{
+td:hover{
 	background:#3F98F3;
     border-radius:100%;
 	}
-a:focus,a:active{
+td:focus,td:active{
     border: none;
     background-color:#3F98F3;
     padding-top: 10px;
@@ -113,6 +107,17 @@ a:focus,a:active{
 
 }
 
+#footer{
+    position:relative;
+}
+#footer p{
+    margin-top:50px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+
+
 @media (max-width: 760px) {
 	.content{
    top:120px;
@@ -120,9 +125,20 @@ a:focus,a:active{
    margin:0;
    color: #FFFFFF;
      }
-.copy{
-font-size: 5px;
-margin-top:70px;
-    }
+td {
+  float: left;
+  width:100%;
+  margin-top: 50px;
+}
+
+#footer{
+    position:relative;
+}
+#footer p{
+    margin-top:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    font-size: 13px;
+}
 	}
 
