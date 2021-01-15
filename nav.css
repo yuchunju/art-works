@@ -97,6 +97,7 @@ td {
 td:hover{
 	background:#3F98F3;
     border-radius:100%;
+    margin-top:40px;
 	}
 td:focus,td:active{
     border: none;
